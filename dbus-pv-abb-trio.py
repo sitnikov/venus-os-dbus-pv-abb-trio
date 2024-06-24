@@ -83,7 +83,7 @@ def read_sunspec_device(local_config):
                                  timeout=float(local_config['PV']['timeout'])
                                  )
 
-    if local_config.has_option('PV')['base_addr']:
+    if local_config.has_option('PV', 'base_addr'):
         device.base_addr_list = [int(local_config['PV']['base_addr'])]
 
     device.scan()

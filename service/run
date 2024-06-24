@@ -1,0 +1,3 @@
+#!/bin/sh
+exec 2>&1
+python -u /data/dbus-pv-abb-trio/dbus-pv-abb-trio.py

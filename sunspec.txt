@@ -1,0 +1,28 @@
+model: Common (1)
+       Manufacturer (Mn):                            Power-One
+       Model (Md):                                      -3M97-
+       Options (Opt):                                        r
+       Version (Vr):                                      CAA8
+       Serial Number (SN):                    113987-3M97-2119
+ model: Inverter (Three Phase) (103)
+       Amps (A):                                          0.34 A
+       Amps PhaseA (AphA):                                0.34 A
+       Amps PhaseB (AphB):                                 0.0 A
+       Amps PhaseC (AphC):                                0.24 A
+       Phase Voltage AB (PPVphAB):          397.70000000000005 V
+       Phase Voltage BC (PPVphBC):                       402.3 V
+       Phase Voltage CA (PPVphCA):          400.70000000000005 V
+       Phase Voltage AN (PhVphA):           230.70000000000002 V
+       Phase Voltage BN (PhVphB):                        230.8 V
+       Phase Voltage CN (PhVphC):                        232.8 V
+       Watts (W):                                           63 W
+       Hz (Hz):                                          50.01 Hz
+       WattHours (WH):                                18050862 Wh
+       DC Watts (DCW):                                      75 W
+       Cabinet Temperature (TmpCab):                      31.8 C
+       Other Temperature (TmpOt):                         32.1 C
+       Operating State (St):                                 4
+       Vendor Operating State (StVnd):                       6
+       Event1 (Evt1):                               0x00000000
+       Event Bitfield 2 (Evt2):                     0x00000000
+    

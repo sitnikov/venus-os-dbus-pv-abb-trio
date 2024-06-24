@@ -230,7 +230,10 @@ class DbusABBPvService:
             if 'sunspec' in settings and settings['sunspec'] in values:
                 v = values[settings['sunspec']]['value']
             elif path in ['/Ac/L1/Power', '/Ac/L2/Power', '/Ac/L3/Power']:
-                v = round(values['Aph' + settings['ph']]['value'] * values['PhVph' + settings['ph']]['value'], 2)
+                if values['W']['value'] > 0:
+                    v = round(values['Aph' + settings['ph']]['value'] * values['PhVph' + settings['ph']]['value'], 2)
+                else:
+                    v = 0
             elif path in ['/Ac/L1/Energy/Forward', '/Ac/L2/Energy/Forward', '/Ac/L3/Energy/Forward']:
                 v = round(values['kWH']['value'] / 3, 2)
             elif path == '/StatusCode':
